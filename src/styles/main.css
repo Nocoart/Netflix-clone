@@ -1,0 +1,27 @@
+main {
+	padding-left: 50px;
+}
+
+.film-category {
+	color: #fff;
+	margin-top: 20px;
+}
+
+.film-carousel {
+	display: flex;
+	overflow-x: scroll;
+	overflow-y: visible;
+	height: 160px;
+	align-items: center;
+}
+
+img.film-item {
+	width: 220px;
+	height: 125px;
+	z-index: 2;
+}
+
+img.film-item:hover {
+	transform: scale(1.1);
+	transition: 0.4s;
+}
